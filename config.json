@@ -1,0 +1,40 @@
+{
+  "routes": [
+    { "path": "/", "src": "src/pages/Home.tsx" },
+    { "path": "/work", "src": "src/pages/Work.tsx" },
+    { "path": "/work/yunqi-tea", "src": "src/pages/ProjectDetail.tsx" },
+    { "path": "/work/beilu-app", "src": "src/pages/ProjectDetail.tsx" },
+    { "path": "/work/salt-magazine", "src": "src/pages/ProjectDetail.tsx" },
+    { "path": "/work/hillside-hotel", "src": "src/pages/ProjectDetail.tsx" },
+    { "path": "/work/grain-bakery", "src": "src/pages/ProjectDetail.tsx" },
+    { "path": "/work/arc-fitness", "src": "src/pages/ProjectDetail.tsx" },
+    { "path": "/about", "src": "src/pages/About.tsx" },
+    { "path": "/services", "src": "src/pages/Services.tsx" },
+    { "path": "/testimonials", "src": "src/pages/Testimonials.tsx" },
+    { "path": "/journal", "src": "src/pages/Journal.tsx" },
+    { "path": "/journal/quiet-brand", "src": "src/pages/ArticleDetail.tsx" },
+    { "path": "/journal/grid-rhythm", "src": "src/pages/ArticleDetail.tsx" },
+    { "path": "/journal/design-system-legacy", "src": "src/pages/ArticleDetail.tsx" },
+    { "path": "/journal/working-with-clients", "src": "src/pages/ArticleDetail.tsx" },
+    { "path": "/contact", "src": "src/pages/Contact.tsx" }
+  ],
+  "components": [
+    { "name": "SiteHeader", "src": "src/components/studio/SiteHeader.tsx" },
+    { "name": "SiteFooter", "src": "src/components/studio/SiteFooter.tsx" },
+    { "name": "HeroComposition", "src": "src/components/studio/HeroComposition.tsx" },
+    { "name": "Marquee", "src": "src/components/studio/Marquee.tsx" },
+    { "name": "ProjectCard", "src": "src/components/studio/ProjectCard.tsx" },
+    { "name": "ProjectFilter", "src": "src/components/studio/ProjectFilter.tsx" },
+    { "name": "ProjectShowcase", "src": "src/components/studio/ProjectShowcase.tsx" },
+    { "name": "SectionHead", "src": "src/components/studio/PageShell.tsx" },
+    { "name": "PageIntro", "src": "src/components/studio/PageShell.tsx" },
+    { "name": "Button", "src": "src/components/ui/button.tsx" },
+    { "name": "Card", "src": "src/components/ui/card.tsx" },
+    { "name": "Badge", "src": "src/components/ui/badge.tsx" },
+    { "name": "Input", "src": "src/components/ui/input.tsx" },
+    { "name": "Textarea", "src": "src/components/ui/textarea.tsx" },
+    { "name": "Avatar", "src": "src/components/ui/avatar.tsx" },
+    { "name": "Tabs", "src": "src/components/ui/tabs.tsx" },
+    { "name": "Separator", "src": "src/components/ui/separator.tsx" }
+  ]
+}
